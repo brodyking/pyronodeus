@@ -1,0 +1,31 @@
+[31-Jan-2021 14:05:09 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function hasChildNodes() on null in /home/pyroepfq/public_html/forum/deleter.php:19
+Stack trace:
+#0 /home/pyroepfq/public_html/forum/deleter.php(37): deleteReply('posts/fgh.html', 'cont-')
+#1 {main}
+  thrown in /home/pyroepfq/public_html/forum/deleter.php on line 19
+[31-Jan-2021 14:33:21 America/New_York] PHP Parse error:  syntax error, unexpected '?', expecting end of file in /home/pyroepfq/public_html/forum/view.php on line 179
+[31-Jan-2021 14:33:22 America/New_York] PHP Parse error:  syntax error, unexpected '?', expecting end of file in /home/pyroepfq/public_html/forum/view.php on line 179
+[31-Jan-2021 14:33:23 America/New_York] PHP Parse error:  syntax error, unexpected '?', expecting end of file in /home/pyroepfq/public_html/forum/view.php on line 179
+[31-Jan-2021 14:33:23 America/New_York] PHP Parse error:  syntax error, unexpected '?', expecting end of file in /home/pyroepfq/public_html/forum/view.php on line 179
+[31-Jan-2021 14:33:23 America/New_York] PHP Parse error:  syntax error, unexpected '?', expecting end of file in /home/pyroepfq/public_html/forum/view.php on line 179
+[31-Jan-2021 14:33:23 America/New_York] PHP Parse error:  syntax error, unexpected '?', expecting end of file in /home/pyroepfq/public_html/forum/view.php on line 179
+[31-Jan-2021 14:33:24 America/New_York] PHP Parse error:  syntax error, unexpected '?', expecting end of file in /home/pyroepfq/public_html/forum/view.php on line 179
+[31-Jan-2021 14:33:24 America/New_York] PHP Parse error:  syntax error, unexpected '?', expecting end of file in /home/pyroepfq/public_html/forum/view.php on line 179
+[31-Jan-2021 14:33:25 America/New_York] PHP Parse error:  syntax error, unexpected '?', expecting end of file in /home/pyroepfq/public_html/forum/view.php on line 179
+[31-Jan-2021 14:33:25 America/New_York] PHP Parse error:  syntax error, unexpected '?', expecting end of file in /home/pyroepfq/public_html/forum/view.php on line 179
+[31-Jan-2021 14:33:29 America/New_York] PHP Parse error:  syntax error, unexpected '?', expecting end of file in /home/pyroepfq/public_html/forum/view.php on line 179
+[31-Jan-2021 14:38:46 America/New_York] PHP Warning:  DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 2 in /home/pyroepfq/public_html/forum/reply.php on line 114
+[31-Jan-2021 14:38:46 America/New_York] PHP Warning:  DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;body&gt; tag in Entity, line: 2 in /home/pyroepfq/public_html/forum/reply.php on line 114
+[31-Jan-2021 14:39:32 America/New_York] PHP Warning:  DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 2 in /home/pyroepfq/public_html/forum/reply.php on line 114
+[31-Jan-2021 14:39:32 America/New_York] PHP Warning:  DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;body&gt; tag in Entity, line: 2 in /home/pyroepfq/public_html/forum/reply.php on line 114
+[31-Jan-2021 14:41:27 America/New_York] PHP Warning:  DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 2 in /home/pyroepfq/public_html/forum/deleter.php on line 16
+[31-Jan-2021 14:41:27 America/New_York] PHP Warning:  DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;body&gt; tag in Entity, line: 2 in /home/pyroepfq/public_html/forum/deleter.php on line 16
+[31-Jan-2021 15:26:43 America/New_York] PHP Warning:  unlink(posts/asdf.html): No such file or directory in /home/pyroepfq/public_html/announcments/admin.php on line 23
+[31-Jan-2021 21:04:55 America/New_York] PHP Warning:  DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 2 in /home/pyroepfq/public_html/announcments/reply.php on line 114
+[31-Jan-2021 21:04:55 America/New_York] PHP Warning:  DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;body&gt; tag in Entity, line: 2 in /home/pyroepfq/public_html/announcments/reply.php on line 114
+[01-Feb-2021 16:34:35 America/New_York] PHP Warning:  DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 2 in /home/pyroepfq/public_html/announcments/reply.php on line 114
+[01-Feb-2021 16:34:35 America/New_York] PHP Warning:  DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;body&gt; tag in Entity, line: 2 in /home/pyroepfq/public_html/announcments/reply.php on line 114
+[01-Feb-2021 16:36:28 America/New_York] PHP Warning:  DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 2 in /home/pyroepfq/public_html/announcments/reply.php on line 114
+[01-Feb-2021 16:36:28 America/New_York] PHP Warning:  DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;body&gt; tag in Entity, line: 2 in /home/pyroepfq/public_html/announcments/reply.php on line 114
+[07-Feb-2021 23:55:45 America/New_York] PHP Warning:  DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 2 in /home/pyroepfq/public_html/announcments/reply.php on line 114
+[07-Feb-2021 23:55:45 America/New_York] PHP Warning:  DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;body&gt; tag in Entity, line: 2 in /home/pyroepfq/public_html/announcments/reply.php on line 114

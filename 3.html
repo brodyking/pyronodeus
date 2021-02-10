@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us" data-user-color-scheme="light">
+
+<head>
+    <meta name="generator" content="Hugo 0.80.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>🧙‍♂️ Pyronode</title>
+    <link rel="icon" type="image/png" href="favicon.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="favicon.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon.png" sizes="96x96">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<nav class="navbar">
+		<div class="container">
+			<div class="flex">
+				<div>
+					<a class="brand" href="index.html">
+
+						<span class="emoji">
+                        🧙‍♂️
+                    </span>
+                    
+                    Pyronode
+                    </a>
+            </div>
+            <div class="flex">
+                <a href="articles.html">Articles</a>
+                <a href="forum.php.html">Forum</a>
+                <button id="dark-mode-button"></button>
+            </div>
+            </div>
+    </div>
+</nav>
+    <main>
+
+
+        <div class="container">
+            <article>
+                <header class="article-header">
+                    <div class="thumb">
+                        <div>
+                            <h1>Create your own Imageboard!</h1>
+                            <div class="post-meta" style="margin-bottom: none; padding-bottom: none;">
+                                <div>
+                                    By Pyronode on <time>January 30, 2021</time>
+                                </div>
+
+                                <div class="tags">
+                                    <a href="#">Tutorial</a>
+                                    <a href="#">Web Hosting</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <div class="article-post">
+                  <p>Have you ever wanted to make your own imageboard, but you dont have dedicated hosting? Well this is a in-depth guide on how to get your own forum without having to cough up money to Namecheap for dedicated hosting!</p>
+                  <h3>Step 1: Get hosting</h3>
+                  <p>Wait! Didnt you just say no dedicated hosting? Well yes. But I meant the $20 a month type that give you an entire linux machine. With this all you need is a cpanel and around 20gigs of storage. I reccomnd using Namcheap for your hosting although you can use whatever you want.</p>
+                  <h3>Step 2: Get the software</h3>
+                  <p>The best software to use is <a href="https://github.com/lainchan/lainchan">lainchan</a> which is a fork of <a href="https://github.com/savetheinternet/Tinyboard">Tinyboard</a>. This software works really well. I have used it in the past and it has almost no issues that i have noticed!</p>
+                  <p>There are certain requirments to using this software. I will list them here!</p>
+                  <ul>
+                    <li>PHP >= 5.4</li>
+                    <li>MySQL Server</li>
+                    <li>mbstring</li>
+                    <li>PHP GD</li>
+                    <li>PHP PDO</li>
+                  </ul>
+                  <p>You can enable the last 3 in the <mark>Select PHP Version</mark> tab on your cpanel.</p>
+                  <img src="screenshots/ss8.png" style="border-radius:10px;">
+                  <h3>Step 3: Install it!</h3>
+                  <p>Go ahead and download the zip from the <a href="https://github.com/lainchan/lainchan">github page</a>. Then upload it into any directory. (Note this can take a little while) Extract it and follow the proceeding steps.</p>
+                  <p>Navigate yourself to the <code>install.php</code> file and click on it.</p>
+                  <img src="screenshots/ss2.png" style="border-radius:10px">
+                  <p>Accept the terms of service and then click the <mark>Click here to proceed with installation</mark> button.</p>
+                  <img src="screenshots/ss3.png" style="border-radius:10px">
+                  <p>Now this is the tricky part for people who dont know how to use MySQL. But if you followed my advice and got cpanel this should not be very hard. Go head and go to the MySQL Database Wizard button on your cpanel and create a database.</p>
+                  <img src="screenshots/ss5.png" style="border-radius:10px;">
+                  <p>Then just copy pate the info of your database into the install menu. Make sure you give it all of the permissions.</p>
+                  <p>Once you have filled out all of the information you can then finish the instillation!</p>
+                  <img src="screenshots/ss4.png" style="border-radius:10px;"> 
+                  <h3>Step 4:Setting up your imageboard</h3>
+                  <p>The first board you will have on your forum is <code>/b/</code> which if you are like anyone else. You <b>wanna delete</b>. Go to <code>mod.php</code> and login using the default credintials <code>admin / password</code>. 
+                  <img src="screenshots/ss7.png" style="border-radius:10px;"> 
+                  <p>From this menu you can moderate your board, change settings on your board, ban members, unban members, and do all of that stuff. By this point you are all done! You can go to the <code>Manage themes</code> page and download some things like a homepage or a overchan. Really it is up to you at this point.</p>
+                  <h3>Step 5: Moderating your board</h3>
+                  <p>Imageboard culture dose attract alot of illegal content sometimes. So make sure to moderate your boards. If you dont have alot of time, I reccomend you get some other people to do it for you! You can create multiple accounts for the mod panel and give them certain perms. But your best bet really is to just make your board request-only. Because that way you have to approve of posts before they go public. Although that dose cripple any real-time conversation.
+                  <h3>Thats it!</h3>
+                  <p>If you have any bugs with the software you can report them on the <a href="https://github.com/lainchan/lainchan">lainchan github page</a> as I did not create the software. Anyways I hope you guys found this useful!
+                </div>
+    </main>
+
+
+    </main>
+</body>
+<script async src="script.js"></script>
+
+</html>
